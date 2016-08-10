@@ -53,7 +53,7 @@ flag bytestring-builder
     You can disable the use of the `bytestring-builder` package using `-f-bytestring-builder`.
     .
     Disabling this is an unsupported configuration, but it may be useful for accelerating builds in sandboxes for expert users.
-  default: True
+  default: False
   manual: False
 
 flag containers
